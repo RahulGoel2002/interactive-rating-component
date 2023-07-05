@@ -1,0 +1,33 @@
+.rating {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 15%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 23%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(217, 12%, 63%);
+    cursor: pointer;
+    transition-property: background-color, color;
+    transition-duration: 350ms;
+}
+
+.btn:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+    transition-property: background-color, color;
+    transition-duration: 350ms;
+}
+
+.active, .active:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    transition-property: background-color, color;
+    transition-duration: 350ms;
+}
